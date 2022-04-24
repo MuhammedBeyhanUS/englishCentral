@@ -1,5 +1,5 @@
 # Video Sorter
-Video Sorter a hands-on java exam for English Central.
+Video Sorter is a hands-on java exam for English Central.
 It can sort the videos by their name, durations and dates.
 
 # Installation and Run
