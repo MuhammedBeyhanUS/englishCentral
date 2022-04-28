@@ -2,8 +2,8 @@
 Video Sorter is a hands-on java exam for English Central.
 It can sort the videos by their name, durations and dates.
 ## Requirements
-For englishCentral spring JDK 17 or newer is required.
-## Installation and Run
+For englishCentral spring project, JDK 17 or newer is required.
+## Installation and Running
 `git clone https://github.com/MuhammedBeyhanUS/englishCentral.git`
 
 `cd englishCentral`
