@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "a0428bd2-5a12-441d-b498-3ba03900d969",
+		"name": "englishCentral",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sortVideosByName",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"vyzVIDOE1\",\r\n        \"duration\": 198,\r\n        \"date\": 1650109981185\r\n    },\r\n    {\r\n        \"name\": \"defVIDEO2\",\r\n        \"duration\": 184,\r\n        \"date\": 1650209981185\r\n    },\r\n    {\r\n        \"name\": \"abcVIDEO3\",\r\n        \"duration\": 213,\r\n        \"date\": 1650309981185\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/videos/sortBy/name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"videos",
+						"sortBy",
+						"name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sortVideosByDuration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"vyzVIDOE1\",\r\n        \"duration\": 198,\r\n        \"date\": 1650109981185\r\n    },\r\n    {\r\n        \"name\": \"defVIDEO2\",\r\n        \"duration\": 184,\r\n        \"date\": 1650209981185\r\n    },\r\n    {\r\n        \"name\": \"abcVIDEO3\",\r\n        \"duration\": 213,\r\n        \"date\": 1650309981185\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/videos/sortBy/duration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"videos",
+						"sortBy",
+						"duration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sortVideosByDate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"vyzVIDOE1\",\r\n        \"duration\": 198,\r\n        \"date\": 1650109981185\r\n    },\r\n    {\r\n        \"name\": \"defVIDEO2\",\r\n        \"duration\": 184,\r\n        \"date\": 1650209981185\r\n    },\r\n    {\r\n        \"name\": \"abcVIDEO3\",\r\n        \"duration\": 213,\r\n        \"date\": 1650309981185\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/videos/sortBy/date",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"videos",
+						"sortBy",
+						"date"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
